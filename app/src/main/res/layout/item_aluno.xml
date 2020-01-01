@@ -12,7 +12,7 @@
     android:layout_margin="8dp"
     tools:text="Alex" />
 
-    <TextView android:id="@+id/item_aluno_telefone"
+    <TextView android:id="@+id/item_aluno_telefone_celular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

@@ -14,7 +14,7 @@ import br.com.alura.agenda.model.Aluno;
 public interface AlunoDAO {
 
     @Insert
-    void salva(Aluno aluno);
+    Long salva(Aluno aluno);
 
     @Update
     void edita(Aluno aluno);

@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ListView;
 
 import br.com.alura.agenda.R;
+import br.com.alura.agenda.asynctask.BuscaAlunosTask;
 import br.com.alura.agenda.model.Aluno;
 import br.com.alura.agenda.ui.ListaAlunosView;
 
@@ -63,6 +64,10 @@ public class ListaAlunosActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        atualizaAlunos ();
+    }
+
+    private void atualizaAlunos() {
         listaAlunosView.atualizaAlunos();
     }
 
